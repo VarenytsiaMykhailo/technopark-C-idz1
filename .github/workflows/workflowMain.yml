@@ -45,4 +45,3 @@ jobs:
           make check
           sudo apt install -y valgrind
           valgrind --tool=memcheck --leak-check=yes ./build/dz1
-          11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11
