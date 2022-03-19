@@ -37,3 +37,7 @@ jobs:
           cmake ..
           make
           ./tests/test_weatherLib
+          sudo apt-get install lcov
+          lcov -t "tests/test_weatherLib" -o coverage.info -c -d weatherLib/
+          sudo apt-get install genhtml
+          genhtml -o report coverage.info
