@@ -2,6 +2,7 @@
 
 int main() {
     int daysInWeek = 7;
+	
     WeatherDataPerDay **weatherDataPerWeek = (WeatherDataPerDay **) malloc(sizeof(WeatherDataPerDay *) * daysInWeek);
     if (!weatherDataPerWeek) {
         printf("Malloc failed\n");
