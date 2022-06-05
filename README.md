@@ -1,1 +1,0 @@
-# technopark-C-idz1
